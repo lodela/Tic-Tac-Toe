@@ -1,2 +1,2 @@
-# Tic-Tac-Toe-ReactJs
+# React Js :: Tic-Tac-Toe
 Exercise 
