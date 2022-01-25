@@ -1,0 +1,27 @@
+.square {
+  border: solid 1px gray;
+  height: 200px;
+  margin: 0 0 20px 0;
+  cursor: pointer;
+  color: lightgray;
+  text-align: center;
+  align-items: center;
+
+  &.One {
+    border: solid 1px #73880a;
+    color: #73880a;
+    -webkit-box-shadow: inset 0 0 35px 3px #73880a;
+    box-shadow: inset 0 0 35px 3px #73880a;
+  }
+  &.Two {
+    border: solid 1px #ff920a;
+    color: #ff920a;
+    -webkit-box-shadow: inset 0 0 35px 3px #ff920a;
+    box-shadow: inset 0 0 35px 3px #ff920a;
+  }
+
+  svg {
+    position: relative;
+    top: 21%;
+  }
+}
